@@ -1,3 +1,8 @@
+# This defines all the files and directories that should be ignored by Git 
+# in the membrane droplet project. It includes common patterns for Python projects, 
+# virtual environments, Jupyter notebooks, macOS system files, data and results directories, 
+# figures, large numerical files, logs, and temporary files.
+
 # Python
 __pycache__/
 *.pyc
@@ -15,6 +20,14 @@ env/
 # Data & results
 data/
 results/
+
+# Figures
+figures/
+
+# Large numerical files
+*.npy
+*.npz
+*.h5
 
 # Logs
 *.log
